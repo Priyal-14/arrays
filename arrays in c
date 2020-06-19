@@ -1,0 +1,26 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+clrscr();
+int arr[3][3];
+int i,j;
+printf("enter values\n");
+for(i=0;i<=2;i++)
+{
+    for(j=0;j<=2;j++)
+    {
+     scanf("%d",&arr[i][j]);
+    }
+ }
+ printf("output array\n");
+for(i=0;i<=2;i++)
+{
+    for(j=0;j<=2;j++)
+    {
+     printf("%d",arr[i][j]);
+    }
+printf("\n");
+}
+getch();
+}
